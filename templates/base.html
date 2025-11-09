@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="us">
+	<head>
+		<title> school </title>
+		<meta charset="utf-8" />
+		<meta name="description" content="enroll for your proficency"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta name="keywords" content="serivce, business, solution"/>
+		<link rel="stylesheet href="{% static 'css/style.css' %}">
+	</head>
+
+	<body>
+		<header>
+			{% include 'narbar.html' %}
+		</header>
+
+		<main>
+			{% block content %}
+
+
+			{% endblock content %}
+		</main>
+
+		<footer>
+			&copyright 2035			
+		</footer>
+	</body>
+</html>
+
+
+
